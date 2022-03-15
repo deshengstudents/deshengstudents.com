@@ -83,4 +83,3 @@
 ### 其他问题
 
 如果你有也有对德胜的建议或投诉、被德胜侵犯的经历，你可以 [在我们的 GitHub 仓库提交 issue](https://github.com/deshengstudents/deshengstudents.com/issues/new)。
-
