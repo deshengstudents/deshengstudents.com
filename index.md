@@ -1,6 +1,6 @@
-# DeshengStudents
+# Desheng Students
 
-“DeshengStudents”即“students of Desheng”，字面翻译为“德胜学生”，是一个致力于保护德胜学生的权利的网站。
+“Desheng Students”即“students of Desheng”，字面翻译为“德胜学生”，是一个致力于维护德胜学生的权利的项目。
 
 ## 作恶
 
@@ -102,6 +102,6 @@
 
 同学们，在德胜生活肯定或多或少会感觉不满。与其被学校压迫，不如联合起来，为更好的生活环境而努力！
 
-你可以 [投诉德胜](https://blog.deshengstudents.com/index.php/archives/7/) 或向学校提出建议（校长信箱在 C 座与 F 座交界处 1F），也可以 [提交 issue 给 DeshengStudents](https://github.com/deshengstudents/deshengstudents.com/issues/)。
+你可以 [投诉德胜](https://blog.deshengstudents.com/index.php/archives/7/) 或向学校提出建议（校长信箱在 C 座与 F 座交界处 1F），也可以 [提交 issue 给 Desheng Students](https://github.com/deshengstudents/deshengstudents.com/issues/)。
 
 **全校受压迫者联合起来！**
