@@ -2,6 +2,10 @@
 
 “Desheng Students”即“students of Desheng”，字面翻译为“德胜学生”，是一个致力于维护德胜学生的权利的项目。
 
+## 如何访问 Desheng Students
+
+在浏览器输入“deshengstudents.com”即可。如果网站遭微信或部分浏览器屏蔽，可以使用 [via (Android)](https://www.coolapk.com/apk/mark.via)、Safari (iOS, iPadOS, macOS)、[Google Chrome (Android (中国大陆除外), Windows, macOS, Linux, iOS, iPadOS)](https://www.google.cn/chrome/)。
+
 ## 作恶
 
 为什么要说“保护学生权利”呢？因为广东顺德德胜学校做了许多恶，时常侵犯学生权利。让我们看看德胜做了哪些恶。
