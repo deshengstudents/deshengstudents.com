@@ -1,6 +1,6 @@
 # Desheng Students
 
-“Desheng Students”即“students of Desheng”，字面翻译为“德胜学生”，是一个致力于维护德胜学生的权利的项目。
+“Desheng Students”即“德胜学生”，是一个致力于维护德胜学生的权利的项目。
 
 ## 如何访问 Desheng Students
 
