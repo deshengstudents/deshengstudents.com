@@ -1,6 +1,6 @@
-# Desheng Students - 致力于保护德胜学生权利
+# Desheng Students - 致力于维护德胜学生权利
 
-一个维护德胜学生权利的仓库。[了解更多](index.md)
+一个致力于维护德胜学生权利的仓库。[了解更多](index.md)
 
 A repo to safeguard the rights of Desheng students. 
 
