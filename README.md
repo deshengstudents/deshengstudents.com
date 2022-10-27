@@ -2,8 +2,6 @@
 
 Desheng Students德胜学生（DeshengStudents.com）是一个旨在揭露和反对校方作恶以维护德胜学生权利的网站，我们在为减少校园中的压迫而努力。
 
-[Desheng Students关于10月9日初一同学坠楼事件的声明→](https://blog.deshengstudents.com/index.php/archives/11/)
-
 ## 德胜现状
 
 左右滑动以了解更多
@@ -172,4 +170,4 @@ Desheng Students德胜学生（DeshengStudents.com）是一个旨在揭露和反
 >
 > **第三十条第三款**　不得将信访人的检举、揭发材料以及有关情况透露或者转给被检举、揭发的人员或者单位。
 
-[联系我们](mailto:deshengstudents@outlook.com)　[GitHub项目](https://github.com/deshengstudents/deshengstudents.com)
+[联系我们](https://blog.deshengstudents.com/index.php/start-page.html)
