@@ -238,9 +238,20 @@
             </ul>
             <p>
                 <a href='https://blog.deshengstudents.com/index.php/start-page.html'>联系我们</a>　
-                <a href="javascript:navigator.clipboard.writeText(window.location.href + '#复制这段到浏览器访问').then(()=>{alert('复制链接成功，请在要分享的地方粘贴')})">分享</a>
+                <a href="javascript:share();">分享</a>
             </p>
         </div>
+        <script>
+            function share() {
+                if (navigator.userAgent.toLowerCase().indexOf('micromessenger') != -1) {
+                    alert('请点击右上角分享');
+                    return;
+                } else {
+                    navigator.clipboard.writeText(window.location.href + '#复制这段到浏览器访问')
+                        .then(() => { alert('复制链接成功，请在要分享的地方粘贴') });
+                }
+            }
+        </script>
     </main>
 </body>
 
