@@ -156,7 +156,7 @@ Desheng Students德胜学生（DeshengStudents.com）是一个旨在揭露和反
 >
 > （三）辱骂或者以歧视性、侮辱性的言行侵犯学生人格尊严。
 
-## 维护权利
+## 投诉
 
 公民向政府投诉依[《信访工作条例》](http://www.gov.cn/zhengce/2022-04/07/content_5683923.htm)受保护，请勇敢地投诉。以下列举了几种常用的方法：
 
@@ -164,6 +164,6 @@ Desheng Students德胜学生（DeshengStudents.com）是一个旨在揭露和反
 
 - 使用[佛山市网上信访投诉平台](https://ts.gdwsxf.gd.gov.cn/fs/web/index)
 
-- [投诉的具体方法→](https://blog.deshengstudents.com/index.php/archives/7/) 
+- [投诉的具体方法→](https://blog.deshengstudents.com/index.php/archives/7/)
 
 [联系我们](https://blog.deshengstudents.com/index.php/start-page.html)
