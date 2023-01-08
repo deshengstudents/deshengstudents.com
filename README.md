@@ -166,4 +166,4 @@ Desheng Students德胜学生（DeshengStudents.com）是一个旨在揭露和反
 
 - [投诉的具体方法→](https://blog.deshengstudents.com/index.php/archives/7/)
 
-[联系我们](https://blog.deshengstudents.com/index.php/start-page.html)
+[联系我们](https://blog.deshengstudents.com/index.php/start-page.html)　[分享](javascript:navigator.clipboard.writeText(window.location.href + '#复制这段到浏览器访问').then(()=>{alert('复制链接成功，请在要分享的地方粘贴')})
