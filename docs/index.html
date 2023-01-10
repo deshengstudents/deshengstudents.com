@@ -241,30 +241,32 @@
                 <a href="javascript:share();">分享</a>
             </p>
         </div>
-        <script>
-            function share() {
-                if (navigator.userAgent.toLowerCase().indexOf('micromessenger') != -1) {
-                    alert('请点击右上角分享');
-                } else {
-                    var text = window.location.href + '#复制这段，粘贴到浏览器打开';
-                    if (navigator.clipboard) {
-                        navigator.clipboard.writeText(text);
-                    } else {
-                        var textarea = document.createElement('textarea');
-                        document.body.appendChild(textarea);
-                        textarea.style.position = 'fixed';
-                        textarea.style.clip = 'rect(0 0 0 0)';
-                        textarea.style.top = '10px';
-                        textarea.value = text;
-                        textarea.select();
-                        document.execCommand('copy', true);
-                        document.body.removeChild(textarea);
-                    }
-                    alert('已复制到剪贴板，请在要分享的地方粘贴');
-                }
-            }
-        </script>
     </main>
+    <script>
+        function share() {
+            if (navigator.userAgent.toLowerCase().indexOf('micromessenger') != -1) {
+                alert('请点击右上角分享');
+            } else {
+                var text = window.location.href + '#复制这段，粘贴到浏览器打开';
+                if (navigator.clipboard) {
+                    navigator.clipboard.writeText(text);
+                    console.log("a")
+                } else {
+                    var textarea = document.createElement('textarea');
+                    document.body.appendChild(textarea);
+                    textarea.style.position = 'fixed';
+                    textarea.style.clip = 'rect(0 0 0 0)';
+                    textarea.style.top = '10px';
+                    textarea.value = text;
+                    textarea.select();
+                    document.execCommand('copy', true);
+                    document.body.removeChild(textarea);
+                    console.log("b")
+                }
+                alert('已复制到剪贴板，请在要分享的地方粘贴');
+            }
+        }
+    </script>
 </body>
 
 </html>
