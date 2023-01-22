@@ -162,4 +162,6 @@ Desheng Students德胜学生（DeshengStudents.com）是一个旨在揭露和反
 
 - 使用[佛山市网上信访投诉平台](https://ts.gdwsxf.gd.gov.cn/fs/web/index)
 
+- 使用中国教育督导微信公众号投诉平台
+
 - [投诉的具体方法→](https://blog.deshengstudents.com/index.php/archives/7/)
