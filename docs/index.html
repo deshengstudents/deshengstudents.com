@@ -222,7 +222,7 @@
         <h2>投诉</h2>
         <p>公民向政府投诉依<a href='http://www.gov.cn/zhengce/2022-04/07/content_5683923.htm'>《信访工作条例》</a>受保护，请勇敢地投诉。以下列举了几种常用的方法：</p>
         <ul>
-            <li>使用佛山12345小程序，或者拨打(0757)12345</li>
+            <li>使用佛山12345小程序，或者拨打0757-12345</li>
             <li>使用<a href='https://ts.gdwsxf.gd.gov.cn/fs/web/index'>佛山市网上信访投诉平台</a></li>
             <li>使用中国教育督导微信公众号投诉平台</li>
             <li><a href='https://blog.deshengstudents.com/index.php/archives/7/'>投诉的具体方法→</a></li>
@@ -235,9 +235,11 @@
     <script>
         function share() {
             if (navigator.userAgent.toLowerCase().indexOf('micromessenger') != -1) {
-                alert('请点击右上角分享');
+                alert('请点击右上角分享 ↗');
+            } else if (navigator.share) {
+                navigator.share({url: location.href})
             } else {
-                var text = window.location.href + '#复制这段，粘贴到浏览器打开';
+                var text = window.location.href + '#粘贴到浏览器地址栏打开';
                 var textarea = document.createElement('textarea');
                 document.body.appendChild(textarea);
                 textarea.style.position = 'fixed';
@@ -247,8 +249,10 @@
                 textarea.select();
                 document.execCommand('copy', true);
                 document.body.removeChild(textarea);
-                alert('已复制到剪贴板，请在要分享的地方粘贴');
-            }
+                if (confirm('是否打开微信？\n\n链接已复制到剪贴板，在输入框长按粘贴分享。')) {
+                    window.location.href = 'weixin://';
+                }
+            } 
         }
     </script>
 </body>
