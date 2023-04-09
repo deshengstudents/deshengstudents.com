@@ -44,8 +44,8 @@
 
         .button a {
             box-sizing: border-box;
-            margin: 8px;
-            width: calc(50% - 16px);
+            margin: 6px;
+            width: calc(50% - 2 * 6px);
             font-size: 16px;
             border-radius: 8px;
             display: inline-block;
@@ -54,6 +54,7 @@
             line-height: 50px;
             text-decoration: none;
             color: black;
+            overflow: hidden;
         }
 
         .button a span {
@@ -64,18 +65,13 @@
             background-color: lightgray;
         }
 
-        .button a .material-symbols-rounded {
-            display: inline;
-            vertical-align: middle;
-        }
-
         h2 {
             text-align: center;
             font-size: 26px;
         }
 
         a {
-            color: #004284;
+            color: #00498e;
             font-weight: bold;
         }
 
@@ -225,13 +221,13 @@
             </blockquote>
         </div>
         <div class='button'>
+            <a href='https://blog.deshengstudents.com/'>
+                <span class='material-symbols-outlined'>pages</span>
+                <span>阅读博客文章</span>
+            </a>
             <a href='javascript:share()'>
                 <span class='material-symbols-outlined'>open_in_new</span>
                 <span>分享</span>
-            </a>
-            <a href='https://blog.deshengstudents.com/'>
-                <span class='material-symbols-outlined'>pages</span>
-                <span>博客文章</span>
             </a>
         </div>
     </div>
