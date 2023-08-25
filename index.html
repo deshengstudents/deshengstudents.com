@@ -5,21 +5,46 @@
     <meta charset='UTF-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200' />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
     <title>Desheng Students</title>
     <style>
         html {
             scroll-behavior: smooth;
+            -webkit-tap-highlight-color: transparent;
+            line-height: 1.5;
+            font-family: system-ui;
+            font-size: 17px;
         }
 
         body {
             margin: 0;
-            padding: 0;
-            font-family: sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0;
+            font-weight: 600;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        strong {
+            font-weight: 600;
         }
 
         .main {
-            max-width: 720px;
+            max-width: 650px;
             margin: 0 auto;
             padding: 16px;
         }
@@ -46,16 +71,17 @@
         .button a {
             box-sizing: border-box;
             margin: 6px;
-            width: calc(50% - 2 * 6px);
-            font-size: 16px;
+            width: calc(50% - 6px);
+            font-size: 1rem;
             border-radius: 8px;
             display: inline-block;
             padding: 0 17px;
-            background-color: #f5f5f7;
+            background-color: #f2f2f2;
             line-height: 50px;
             text-decoration: none;
             color: black;
             overflow: hidden;
+            font-weight: 600;
         }
 
         .button a span {
@@ -66,7 +92,15 @@
             background-color: lightgray;
         }
 
-        #jubao ul {
+        .button a:nth-child(odd) {
+            margin-left: 0;
+        }
+
+        .button a:nth-child(even) {
+            margin-right: 0;
+        }
+
+        #report ul {
             padding-left: 20px;
         }
 
@@ -76,9 +110,49 @@
             margin: 8px 0;
         }
 
-        a {
-            color: #00498e;
-            font-weight: bold;
+        summary {
+            cursor: pointer;
+            font-size: 20px;
+            line-height: 46px;
+            border-bottom: 1px solid lightgray;
+            margin: 0 -16px 8px;
+            padding: 0 16px;
+            font-weight: 600;
+        }
+
+        summary:active {
+            background-color: lightgray;
+        }
+
+        details summary::marker {
+            content: '';
+            display: none;
+            color: white;
+        }
+
+        summary::after {
+            font-family: 'Material Symbols Outlined';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 30px;
+            line-height: 1;
+            letter-spacing: normal;
+            text-transform: none;
+            white-space: nowrap;
+            word-wrap: normal;
+            direction: ltr;
+            -webkit-font-feature-settings: 'liga';
+            -webkit-font-smoothing: antialiased;
+            content: 'add';
+            float: right;
+            line-height: 46px;
+            font-weight: 600;
+            transition: transform 150ms linear;
+            transform: rotate(-45deg);
+        }
+
+        details[open] summary::after {
+            transform: rotate(0);
         }
 
         blockquote {
@@ -87,20 +161,12 @@
             margin-left: 0;
             margin-right: 0;
             padding-left: 1rem;
+            font-size: 14px;
         }
 
-        summary {
-            cursor: pointer;
-            font-size: 20px;
-            line-height: 46px;
-            border-bottom: 1px solid lightgray;
-            margin: 0 -16px 8px;
-            padding: 0 16px;
-            font-weight: bold;
-        }
-
-        summary:active {
-            background-color: lightgray;
+        blockquote a {
+            font-weight: 600;
+            font-size: 17px;
         }
     </style>
 </head>
@@ -112,16 +178,16 @@
             <div class="subtitle">致力于维护德胜学生权益</div>
         </div>
         <div class='button'>
-            <a href='#jubao'>
+            <a href='#report'>
                 <span class='material-symbols-outlined'>report</span>
-                <span>举报学校</span>
+                <span>投诉举报</span>
             </a>
-            <a href='#zuoe'>
+            <a href='#be-evil'>
                 <span class='material-symbols-outlined'>sentiment_very_dissatisfied</span>
                 <span>德胜作恶</span>
             </a>
             <a href='https://blog.deshengstudents.com/'>
-                <span class='material-symbols-outlined'>pages</span>
+                <span class='material-symbols-outlined'>feed</span>
                 <span>博客文章</span>
             </a>
             <a href='https://blog.deshengstudents.com/index.php/start-page.html'>
@@ -137,15 +203,15 @@
                 <span>English</span>
             </a>
         </div>
-        <div id='jubao'>
+        <div id='report'>
             <h2>投诉举报</h2>
             <ul>
                 <li>“粤省心”微信小程序 &gt; 咨询投诉 &gt; 教育事务 &gt; 教学管理</li>
                 <li>拨打0757-12345</li>
-                <li><a href='https://blog.deshengstudents.com/index.php/archives/7/'>更多、更详细的方法 →</a></li>
+                <li><a href='https://blog.deshengstudents.com/index.php/archives/7/'>更多、更详细的方法 ></a></li>
             </ul>
         </div>
-        <div id='zuoe'>
+        <div id='be-evil'>
             <h2>德胜作恶</h2>
             <div class="subtitle">点击标题即可展开或关闭</div>
             <details>
@@ -188,7 +254,7 @@
                     <p><strong>第四十条</strong>　中华人民共和国公民的通信自由和通信秘密受法律的保护。除因国家安全或者追查刑事犯罪的需要，由公安机关或者检察机关依照法律规定的程序对通信进行检查外，任何组织或者个人不得以任何理由侵犯公民的通信自由和通信秘密。</p>
                     <p><a href='https://www.gov.cn/xinwen/2020-10/18/content_5552113.htm'>《中华人民共和国未成年人保护法》</a></p>
                     <p><strong>第六十三条第一款</strong>　任何组织或者个人不得隐匿、毁弃、非法删除未成年人的信件、日记、电子邮件或者其他网络通讯内容。</p>
-                    <p><a href='http://www.mod.gov.cn/topnews/2020-06/02/content_4866121.htm'>《中华人民共和国民法典》</a></p>
+                    <p><a href='https://www.gov.cn/xinwen/2020-06/01/content_5516649.htm'>《中华人民共和国民法典》</a></p>
                     <p><strong>第一千零三十二条</strong>　自然人享有隐私权。任何组织或者个人不得以刺探、侵扰、泄露、公开等方式侵害他人的隐私权。</p>
                     <p>隐私是自然人的私人生活安宁和不愿为他人知晓的私密空间、私密活动、私密信息。</p>
                 </blockquote>
@@ -272,7 +338,7 @@
             </details>
             <details>
                 <summary>教师</summary>
-                <p>德胜有部分老师脏话连篇、品行恶劣，经常辱骂学生，严重侵犯了学生的人格尊严和心理健康。</p>
+                <p>德胜有部分老师脏话连篇、品行恶劣，时常辱骂学生，严重侵犯了学生的人格尊严和心理健康。</p>
                 <p>教育是培养学生全面发展的过程，教师应该以言行为学生树立良好的榜样。然而，德胜学校部分教师的不当言行可能对学生的心理健康产生严重的负面影响，甚至影响他们的学习兴趣和自信心。</p>
                 <p><a href='http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/202012/t20201228_507882.html'>《中小学教育惩戒规则（试行）》</a>明确规定，教师在教育教学管理、实施教育惩戒过程中，不得辱骂或以歧视性、侮辱性的言行侵犯学生的人格尊严。这些规定旨在保障学生的权益，营造健康的学习环境。</p>
                 <blockquote>
@@ -284,12 +350,20 @@
         </div>
         <div class='button'>
             <a href='https://blog.deshengstudents.com/'>
-                <span class='material-symbols-outlined'>pages</span>
+                <span class='material-symbols-outlined'>feed</span>
                 <span>阅读博客文章</span>
+            </a>
+            <a href='#report'>
+                <span class='material-symbols-outlined'>report</span>
+                <span>投诉举报</span>
             </a>
             <a href='javascript:share()'>
                 <span class='material-symbols-outlined'>open_in_new</span>
                 <span>分享</span>
+            </a>
+            <a href='#'>
+                <span class='material-symbols-outlined'>vertical_align_top</span>
+                <span>回到顶部</span>
             </a>
         </div>
     </div>

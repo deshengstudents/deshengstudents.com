@@ -8,7 +8,7 @@ Desheng Students德胜学生（[DeshengStudents.com](https://deshengstudents.com
 
 - 拨打0757-12345
 
-- [更多、更详细的方法 →](https://blog.deshengstudents.com/index.php/archives/7/)
+- [更多、更详细的方法 >](https://blog.deshengstudents.com/index.php/archives/7/)
 
 ## 德胜作恶
 
@@ -80,7 +80,7 @@ Desheng Students德胜学生（[DeshengStudents.com](https://deshengstudents.com
 >
 > **第六十三条第一款**　任何组织或者个人不得隐匿、毁弃、非法删除未成年人的信件、日记、电子邮件或者其他网络通讯内容。
 >
-> [《中华人民共和国民法典》](http://www.mod.gov.cn/topnews/2020-06/02/content_4866121.htm)
+> [《中华人民共和国民法典》](https://www.gov.cn/xinwen/2020-06/01/content_5516649.htm)
 >
 > **第一千零三十二条**　自然人享有隐私权。任何组织或者个人不得以刺探、侵扰、泄露、公开等方式侵害他人的隐私权。
 >
@@ -186,7 +186,7 @@ Desheng Students德胜学生（[DeshengStudents.com](https://deshengstudents.com
 
 ### 教师
 
-德胜有部分老师脏话连篇、品行恶劣，经常辱骂学生，严重侵犯了学生的人格尊严和心理健康。
+德胜有部分老师脏话连篇、品行恶劣，时常辱骂学生，严重侵犯了学生的人格尊严和心理健康。
 
 教育是培养学生全面发展的过程，教师应该以言行为学生树立良好的榜样。然而，德胜学校部分教师的不当言行可能对学生的心理健康产生严重的负面影响，甚至影响他们的学习兴趣和自信心。
 
