@@ -218,7 +218,7 @@
         </div>
         <div id='be-evil'>
             <h2>德胜作恶</h2>
-            <div class="subtitle">点击标题即可展开或关闭</div>
+            <div class="subtitle">点击标题即可展开或收起 <a onclick="openOrCloseAll(this)">全部展开</a></div>
             <details>
                 <summary>违规集体补课</summary>
                 <p>广东顺德德胜学校近年来多次因组织学生集体补课而引发争议。这些补课活动涵盖了国庆节、寒暑假、青年节和儿童节等多个时段。然而，这种行为引起了学生们的愤怒和抗议，甚至演变成了一场规模相对较大的反对运动。许多学生不满学校的做法，他们采取了多种方式表达不满，包括向教育局投诉和分发传单等，但也受到了校方的干预和限制。这一系列的集体补课活动涉嫌违反《未成年人保护法》。</p>
@@ -250,7 +250,7 @@
             </details>
             <details>
                 <summary>非法搜身</summary>
-                <p>除了引发多次违规补课争议外，广东顺德德胜学校还涉及到了严重的隐私侵犯问题。据悉，学校部分老师会对学生进行了多种形式的非法搜查，包括搜查学生储物柜和进行搜身等。更为严重的是，这些老师甚至要求学生打开手机，检查微信聊天记录等个人隐私。这种行为严重侵犯了学生的人身自由、通信秘密和隐私权，是严重的违法行为。</p>
+                <p>除了引发多次违规补课的争议外，广东顺德德胜学校还涉及严重的隐私侵犯问题。据悉，学校部分老师会对学生进行了多种形式的非法搜查，包括搜查学生储物柜和进行搜身等。更为严重的是，这些老师甚至要求学生打开手机，检查微信聊天记录等个人隐私。这种行为严重侵犯了学生的人身自由、通信秘密和隐私权，是严重的违法行为。</p>
                 <blockquote>
                     <p><a href='https://www.gov.cn/guoqing/2018-03/22/content_5276318.htm'>《中华人民共和国宪法》</a> </p>
                     <p><strong>第三十七条</strong>　中华人民共和国公民的人身自由不受侵犯。</p>
@@ -392,6 +392,21 @@
                 if (confirm('是否打开微信？\n链接已复制到剪贴板，在输入框粘贴分享。')) {
                     window.location.href = 'weixin://';
                 }
+            }
+        }
+
+        function openOrCloseAll(a) {
+            var details = document.getElementsByTagName('details');
+            if (a.innerHTML == '全部收起') {
+                for (var i = 0; i < details.length; i++) {
+                    details[i].removeAttribute('open');
+                }
+                a.innerHTML = '全部展开';
+            } else {
+                for (var i = 0; i < details.length; i++) {
+                    details[i].setAttribute('open', 0);
+                }
+                a.innerHTML = '全部收起';
             }
         }
     </script>
