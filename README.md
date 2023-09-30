@@ -44,7 +44,7 @@ Desheng Students德胜学生（[DeshengStudents.com](https://deshengstudents.com
 
 #### 其他节日
 
-根据[《全国年节及纪念日放假办法》 ](https://www.gov.cn/zhengce/2020-12/25/content_5574202.htm) ，妇女可在3月8日放假半天，14周岁及以上的青年可在5月4日放假半天，不满14周岁的少年儿童可在6月1日放假一天。但是，广东顺德德胜学校的学生无法在这些节日获得假期。
+根据[《全国年节及纪念日放假办法》 ](https://www.gov.cn/gongbao/content/2014/content_2561284.htm) ，妇女可在3月8日放假半天，14周岁及以上的青年可在5月4日放假半天，不满14周岁的少年儿童可在6月1日放假一天。但是，广东顺德德胜学校的学生无法在这些节日获得假期。
 
 > [《中华人民共和国未成年人保护法》](https://www.gov.cn/xinwen/2020-10/18/content_5552113.htm)
 >
