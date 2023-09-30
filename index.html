@@ -5,12 +5,11 @@
     <meta charset='UTF-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?display=block&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
     <title>Desheng Students</title>
     <style>
         html {
             scroll-behavior: smooth;
-            -webkit-tap-highlight-color: transparent;
             line-height: 1.5;
             font-family: system-ui;
             font-size: 17px;
@@ -76,12 +75,16 @@
             border-radius: 8px;
             display: inline-block;
             padding: 0 1rem;
-            background-color: #f2f2f2;
+            background-color: #f5f5f7;
             line-height: 50px;
             text-decoration: none;
             color: black;
             overflow: hidden;
             font-weight: 600;
+        }
+
+        .button a:active {
+            background-color: #d7d7d9;
         }
 
         .button a span {
@@ -90,11 +93,7 @@
 
         .button a span:first-child {
             margin-right: 8px;
-            margin-bottom: -2px;
-        }
-
-        .button a:active {
-            background-color: lightgray;
+            max-width: 24px;
         }
 
         .button a:nth-child(odd) {
@@ -119,14 +118,15 @@
             cursor: pointer;
             font-size: 20px;
             line-height: 46px;
-            border-bottom: 1px solid lightgray;
+            border-bottom: 1px solid #d2d2d7;
             margin: 0 -16px 8px;
             padding: 0 16px;
             font-weight: 600;
+            overflow: hidden;
         }
 
         summary:active {
-            background-color: lightgray;
+            background-color: #f5f5f7;
         }
 
         details summary::marker {
@@ -136,11 +136,14 @@
         }
 
         summary::after {
+            color: #86868b;
+            content: 'add';
+            float: right;
+            transition: transform 150ms linear;
+            font-size: 31.25px;
             font-family: 'Material Symbols Outlined';
             font-weight: normal;
             font-style: normal;
-            font-size: 30px;
-            line-height: 1;
             letter-spacing: normal;
             text-transform: none;
             white-space: nowrap;
@@ -148,21 +151,15 @@
             direction: ltr;
             font-feature-settings: 'liga';
             -webkit-font-smoothing: antialiased;
-            content: 'add';
-            float: right;
-            line-height: 46px;
-            font-weight: 600;
-            transition: transform 150ms linear;
-            transform: rotate(-45deg);
         }
 
         details[open] summary::after {
-            transform: rotate(0);
+            transform: rotate(45deg);
         }
 
         blockquote {
-            border-left: 0.25rem solid lightgray;
-            color: gray;
+            border-left: 0.25rem solid #d2d2d7;
+            color: #6E6E73;
             margin-left: 0;
             margin-right: 0;
             padding-left: 1rem;
@@ -180,15 +177,15 @@
     <div class='main'>
         <div id='header'>
             <h1>Desheng Students</h1>
-            <div class="subtitle">致力于维护德胜学生权益</div>
+            <div class="subtitle">致力于维护德胜学生权益<br>请收藏我们的网址deshengstudents.com</div>
         </div>
         <div class='button'>
             <a href='#report'>
-                <span class='material-symbols-outlined'>report</span>
+                <span class='material-symbols-outlined'>warning</span>
                 <span>投诉举报</span>
             </a>
             <a href='#be-evil'>
-                <span class='material-symbols-outlined'>sentiment_very_dissatisfied</span>
+                <span class='material-symbols-outlined'>sentiment_extremely_dissatisfied</span>
                 <span>德胜作恶</span>
             </a>
             <a href='https://blog.deshengstudents.com/'>
@@ -200,11 +197,11 @@
                 <span>关于我们</span>
             </a>
             <a href='javascript:share()'>
-                <span class='material-symbols-outlined'>open_in_new</span>
+                <span class='material-symbols-outlined'>ios_share</span>
                 <span>分享本页</span>
             </a>
             <a href='english.html'>
-                <span class='material-symbols-outlined'>translate</span>
+                <span class='material-symbols-outlined'>language</span>
                 <span>English</span>
             </a>
         </div>
@@ -354,16 +351,16 @@
             </details>
         </div>
         <div class='button'>
+            <a href='#report'>
+                <span class='material-symbols-outlined'>warning</span>
+                <span>投诉举报</span>
+            </a>
             <a href='https://blog.deshengstudents.com/'>
                 <span class='material-symbols-outlined'>feed</span>
                 <span>博客文章</span>
             </a>
-            <a href='#report'>
-                <span class='material-symbols-outlined'>report</span>
-                <span>投诉举报</span>
-            </a>
             <a href='javascript:share()'>
-                <span class='material-symbols-outlined'>open_in_new</span>
+                <span class='material-symbols-outlined'>ios_share</span>
                 <span>分享本页</span>
             </a>
             <a href='#'>
@@ -379,7 +376,7 @@
             } else if (navigator.share) {
                 navigator.share({ url: location.href })
             } else {
-                var text = window.location.href + '#复制到浏览器打开';
+                var text = window.location.href;
                 var textarea = document.createElement('textarea');
                 document.body.appendChild(textarea);
                 textarea.style.position = 'fixed';
@@ -389,17 +386,18 @@
                 textarea.select();
                 document.execCommand('copy', true);
                 document.body.removeChild(textarea);
-                if (confirm('是否打开微信？\n链接已复制到剪贴板，在输入框粘贴分享。')) {
+                if (confirm('链接已复制到剪切板，是否打开微信分享？')) {
                     window.location.href = 'weixin://';
                 }
             }
         }
 
         function openOrCloseAll(a) {
+            console.log(a);
             var details = document.getElementsByTagName('details');
             if (a.innerHTML == '全部收起') {
                 for (var i = 0; i < details.length; i++) {
-                    details[i].removeAttribute('open');
+                    details[i].removeAttribute('open', 0);
                 }
                 a.innerHTML = '全部展开';
             } else {
