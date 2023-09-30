@@ -50,7 +50,7 @@ Desheng Students德胜学生（[DeshengStudents.com](https://deshengstudents.com
 >
 > **第三十三条第一款**　学校不得占用国家法定节假日、休息日及寒暑假期，组织义务教育阶段的未成年学生集体补课，加重其学习负担。
 >
-> [《全国年节及纪念日放假办法》 ](https://www.gov.cn/zhengce/2020-12/25/content_5574202.htm)
+> [《全国年节及纪念日放假办法》 ](https://www.gov.cn/gongbao/content/2014/content_2561284.htm)
 >
 > **第三条**　部分公民放假的节日及纪念日：
 >
@@ -150,7 +150,7 @@ Desheng Students德胜学生（[DeshengStudents.com](https://deshengstudents.com
 
 根据《中华人民共和国未成年人保护法》和教育部相关规定，学校不应设置重点班和非重点班，以保障教育的均衡发展。然而，德胜学校的违规分班行为显然违反了这些法律和规定。
 
-> [《中华人民共和国未成年人保护法》](http://www.moe.gov.cn/jyb_sjzl/sjzl_zcfg/zcfg_jyfl/202110/t20211029_575949.html)
+> [《中华人民共和国义务教育法》](http://www.moe.gov.cn/jyb_sjzl/sjzl_zcfg/zcfg_jyfl/202110/t20211029_575949.html)
 >
 > **第二十二条第一款**　县级以上人民政府及其教育行政部门应当促进学校均衡发展，缩小学校之间办学条件的差距，不得将学校分为重点学校和非重点学校。学校不得分设重点班和非重点班。
 >
