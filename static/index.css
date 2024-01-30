@@ -1,0 +1,314 @@
+:root {
+    --theme-color: #1d70b8;
+    --theme-color-dark: #003078;
+}
+
+html {
+    scroll-behavior: smooth;
+    line-height: 1.5;
+    font-family: system-ui;
+    font-size: 17px;
+}
+
+body {
+    margin: 0;
+}
+
+strong {
+    font-weight: 600;
+}
+
+header {
+    background-color: var(--theme-color);
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+header .content {
+    padding: 28px 16px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 400px) {
+    header {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    header {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    header {
+        font-size: 50px;
+    }
+}
+
+header h1 {
+    font-size: 1em;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+    letter-spacing: 0.5px;
+}
+
+header .subtitle {
+    color: #d2e2f1;
+}
+
+header form {
+    margin-top: 30px;
+}
+
+header form * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header form input[name=q] {
+    width: calc(100% - 50px);
+    max-width: 500px;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 8px 16px;
+    border: 0;
+    border-radius: 4px 0 0 4px;
+    font-size: 18px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    outline: none;
+}
+
+header form button {
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+    background-color: #ffffff;
+    cursor: pointer;
+    background-color: #d2e2f1;
+    color: var(--theme-color);
+}
+
+header form button:hover {
+    background-color: #e5eff7;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+main h2 {
+    margin: 20px 0;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.service-info .links>a {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    position: relative;
+    border-bottom: 1px solid #d2d2d7;
+    padding: 0 0 8px;
+    margin-bottom: 8px;
+}
+
+.service-info .links>a:last-child {
+    border-bottom: 0;
+}
+
+.service-info .links h3 {
+    margin: 0 0 4px;
+}
+
+.service-info .links h3 span {
+    box-sizing: border-box;
+    height: 30px;
+    font-weight: 600;
+    color: var(--theme-color);
+    border-bottom: 1px solid var(--theme-color);
+}
+
+.service-info .links>a:hover h3 span {
+    color: var(--theme-color-dark);
+    border-bottom: 2px solid var(--theme-color-dark);
+}
+
+.service-info .links>a h3 span::after {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    content: 'navigate_next';
+    font-family: 'Material Symbols Outlined';
+    font-size: 30px;
+}
+
+.service-info .links>a[down] h3 span::after {
+    content: 'arrow_downward';
+}
+
+main .subtitle {
+    color: rgba(0, 0, 0, 50%);
+    text-align: center;
+    line-height: 1.2;
+}
+
+#be-evil h2 {
+    height: 42px;
+}
+
+#be-evil h2>*{
+    vertical-align: text-top;
+}
+
+#be-evil .expand_all {
+    background-color: transparent;
+    color: var(--theme-color);
+    border: 0;
+    line-height: 42px;
+    height: 42px;
+    cursor: pointer;
+    padding: 0;
+    font-size: 18px;
+}
+
+#be-evil .expand_all:hover {
+    color: var(--theme-color-dark);
+}
+
+#be-evil .expand_all>* {
+    vertical-align: bottom;
+    line-height: 42px;
+}
+
+main p a,
+main li a {
+    color: var(--theme-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+main p a:hover,
+main li a:hover {
+    text-decoration: underline;
+    color: var(--theme-color-dark);
+}
+
+#report ul {
+    padding-left: 20px;
+}
+
+summary {
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 46px;
+    border-bottom: 1px solid #d2d2d7;
+    margin: 0 0 8px;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+summary:active {
+    background-color: #f5f5f7;
+}
+
+details summary::marker {
+    content: '';
+    display: none;
+    color: white;
+}
+
+summary::after {
+    color: #86868b;
+    content: 'expand_more';
+    float: right;
+    transition: transform 300ms ease;
+    font-size: 31.25px;
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+details[open] summary::after {
+    transform: rotateX(180deg);
+}
+
+blockquote {
+    border-left: 0.25rem solid #d2d2d7;
+    color: #6E6E73;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 1rem;
+    font-size: 14px;
+}
+
+blockquote a {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+#learn-more ul{
+    padding-left: 1em;
+    list-style: none;
+    font-size: 18px;
+}
+
+.buttons {
+    margin-top: 8px;
+    font-size: 0;
+}
+
+.buttons a {
+    box-sizing: border-box;
+    margin: 6px;
+    width: calc(50% - 6px);
+    font-size: 1rem;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 0 1rem;
+    background-color: #f5f5f7;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    overflow: hidden;
+    font-weight: 600;
+}
+
+.buttons a:active {
+    background-color: #d7d7d9;
+}
+
+.buttons a span {
+    vertical-align: middle;
+}
+
+.buttons a span:first-child {
+    margin-right: 8px;
+    max-width: 24px;
+}
+
+.buttons a:nth-child(odd) {
+    margin-left: 0;
+}
+
+.buttons a:nth-child(even) {
+    margin-right: 0;
+}
