@@ -37,7 +37,9 @@ strong {
     font-weight: 600;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-weight: 600;
 }
 
@@ -110,4 +112,51 @@ details[open] summary::after {
 .expand_all>* {
     vertical-align: bottom;
     line-height: 42px;
+}
+
+#learn-more ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.buttons {
+    margin-top: 8px;
+    font-size: 0;
+}
+
+.buttons a {
+    box-sizing: border-box;
+    margin: 6px;
+    width: calc(50% - 6px);
+    font-size: 1rem;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 0 1rem;
+    background-color: #f5f5f7;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    overflow: hidden;
+    font-weight: 600;
+}
+
+.buttons a:active {
+    background-color: #d7d7d9;
+}
+
+.buttons a span {
+    vertical-align: middle;
+}
+
+.buttons a span:first-child {
+    margin-right: 8px;
+    max-width: 24px;
+}
+
+.buttons a:nth-child(odd) {
+    margin-left: 0;
+}
+
+.buttons a:nth-child(even) {
+    margin-right: 0;
 }
