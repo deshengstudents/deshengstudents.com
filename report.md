@@ -74,7 +74,7 @@
 
 ###### 有效，但速度较慢
 
-1. 打开ts.gdwsxf.gd.gov.cn。
+1. 打开[https://ts.gdwsxf.gd.gov.cn/](https://ts.gdwsxf.gd.gov.cn/)。
 2. 点击“投诉反映”。
 3. 按照提示操作，填写表格。
 
