@@ -106,4 +106,4 @@
 
 要了解更多信息，请访问[DeshengStudents.com](https://deshengstudents.com/)。
 
-欢迎留言、发送邮件至[deshengstudents.com@outlook.com](mailto:deshengstudents.com@outlook.com)来交流或勘误。
+欢迎[留言](https://blog.deshengstudents.com/index.php/archives/7/)、发送邮件至[deshengstudents.com@outlook.com](mailto:deshengstudents.com@outlook.com)来交流或勘误。
