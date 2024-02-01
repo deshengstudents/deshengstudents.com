@@ -1,0 +1,60 @@
+@import url("/static/all.css");
+
+header {
+    background-color: #263135;
+    color: #ffffff;
+    line-height: 1.1;
+}
+
+header .content {
+    padding: 28px 16px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+header a:hover {
+    color: inherit;
+}
+
+@media screen and (min-width: 600px) {
+    header .content {
+        font-size: 24px;
+    }
+
+}
+
+header a {
+    font-size: 1rem;
+    color: inherit;
+    display: inline-block;
+}
+
+header h1 {
+    font-size: 2em;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+header .subtitle {
+    font-size: 1em;
+}
+
+summary {
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    line-height: 1.1;
+}
+
+summary h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+summary h6 {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 400;
+}
