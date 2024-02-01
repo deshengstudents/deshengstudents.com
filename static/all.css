@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?display=block&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0");
+
+:root {
+    --theme-color: #1d70b8;
+    --theme-color-dark: #003078;
+}
+
+html {
+    scroll-behavior: smooth;
+    line-height: 1.5;
+    font-family: system-ui;
+    font-size: 17px;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+a {
+    text-decoration: underline 1px;
+    text-underline-offset: .3em;
+    color: var(--theme-color);
+}
+
+a:hover {
+    text-decoration-thickness: 3px;
+    color: var(--theme-color-dark);
+}
+
+strong {
+    font-weight: 600;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+blockquote {
+    border-left: 0.25em solid #d2d2d7;
+    color: #6E6E73;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 1rem;
+    font-size: .875em;
+}
+
+blockquote a {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+summary {
+    cursor: pointer;
+    font-size: 20px;
+    border-bottom: 1px solid #d2d2d7;
+    margin: 0 0 8px;
+    font-weight: 600;
+    overflow: hidden;
+    position: relative;
+}
+
+summary:active {
+    background-color: #f5f5f7;
+}
+
+details summary::marker {
+    content: '';
+    display: none;
+    color: white;
+}
+
+summary::after {
+    color: #86868b;
+    content: 'expand_more';
+    transition: transform 300ms ease;
+    font-size: 32px;
+    font-family: 'Material Symbols Outlined';
+    font-feature-settings: 'liga';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+details[open] summary::after {
+    transform: rotateX(180deg) translateY(50%);
+}
+
+.expand_all {
+    background-color: transparent;
+    color: var(--theme-color);
+    border: 0;
+    line-height: 42px;
+    height: 42px;
+    cursor: pointer;
+    padding: 0;
+    font-size: 18px;
+}
+
+.expand_all:hover {
+    color: var(--theme-color-dark);
+}
+
+.expand_all>* {
+    vertical-align: bottom;
+    line-height: 42px;
+}
