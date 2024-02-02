@@ -22,6 +22,10 @@ main {
     padding: 0 16px;
 }
 
+* {
+    overflow-wrap: break-word;
+}
+
 a {
     text-decoration: underline 1px;
     text-underline-offset: .3em;
