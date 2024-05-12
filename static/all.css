@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?display=block&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0");
+
 :root {
     --theme-color: #1d70b8;
     --theme-color-dark: #003078;
@@ -163,5 +165,3 @@ details[open] summary::after {
 .buttons a:nth-child(even) {
     margin-right: 0;
 }
-
-@import url("https://fonts.googleapis.com/css2?display=block&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0");
