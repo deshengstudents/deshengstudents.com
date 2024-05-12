@@ -1,14 +1,12 @@
+中文 | [English](https://deshengstudents.com/english.html)
+
 # Desheng Students
 
-Desheng Students德胜学生（[DeshengStudents.com](https://deshengstudents.com/)）是一个旨在揭露和反对校方作恶以维护德胜学生权利的网站，我们在为减少校园中的压迫而努力。
+Desheng Students（[DeshengStudents.com](https://deshengstudents.com/)）是一个旨在揭露和反对校方作恶以维护德胜学生权利的网站，我们在为减少校园中的压迫而努力。
 
-## 投诉举报
+此GitHub项目是Desheng Students网站的源代码，你可以提交issue或pull request来帮助我们改进网站。
 
-- “粤省心”微信小程序 > 咨询投诉 > 教育事务 > 教学管理
-
-- 拨打0757-12345
-
-- [更多、更详细的方法 >](https://blog.deshengstudents.com/index.php/archives/7/)
+## [投诉举报](https://deshengstudents.com/report.html)
 
 ## 德胜作恶
 
@@ -66,7 +64,7 @@ Desheng Students德胜学生（[DeshengStudents.com](https://deshengstudents.com
 
 除了引发多次违规补课的争议外，广东顺德德胜学校还涉及严重的隐私侵犯问题。据悉，学校部分老师会对学生进行了多种形式的非法搜查，包括搜查学生储物柜和进行搜身等。更为严重的是，这些老师甚至要求学生打开手机，检查微信聊天记录等个人隐私。这种行为严重侵犯了学生的人身自由、通信秘密和隐私权，是严重的违法行为。
 
-> [《中华人民共和国宪法》](https://www.gov.cn/guoqing/2018-03/22/content_5276318.htm) 
+> [《中华人民共和国宪法》](https://www.gov.cn/guoqing/2018-03/22/content_5276318.htm)
 >
 > **第三十七条**　中华人民共和国公民的人身自由不受侵犯。
 >
@@ -119,10 +117,9 @@ Desheng Students德胜学生（[DeshengStudents.com](https://deshengstudents.com
 >
 > **第三十三条第一款**　学校应当与未成年学生的父母或者其他监护人互相配合，合理安排未成年学生的学习时间，保障其休息、娱乐和体育锻炼的时间。
 >
-> [《教育部办公厅关于进一步加强中小学生睡眠管理工作的通知》](http://www.moe.gov.cn/srcsite/A06/s3321/202104/t20210401_523901.html) 
+> [《教育部办公厅关于进一步加强中小学生睡眠管理工作的通知》](http://www.moe.gov.cn/srcsite/A06/s3321/202104/t20210401_523901.html)
 >
 > 明确学生睡眠时间要求。根据不同年龄段学生身心发展特点，小学生每天睡眠时间应达到10小时，初中生应达到9小时，高中生应达到8小时。学校、家庭及有关方面应共同努力，确保中小学生充足睡眠时间。
->
 
 ### 上课时间过早
 
@@ -132,7 +129,7 @@ Desheng Students德胜学生（[DeshengStudents.com](https://deshengstudents.com
 
 教育部发布的有关睡眠管理的通知明确指出，小学上午上课时间一般不应早于8:20，中学一般不应早于8:00。这一规定旨在保障学生的充足睡眠时间和身心健康。然而，广东顺德德胜学校的上课时间大幅度早于这一标准，导致学生在难以保证充足睡眠的同时，还不得不面对紧张的日常安排。
 
-> [《教育部办公厅关于进一步加强中小学生睡眠管理工作的通知》](http://www.moe.gov.cn/srcsite/A06/s3321/202104/t20210401_523901.html) 
+> [《教育部办公厅关于进一步加强中小学生睡眠管理工作的通知》](http://www.moe.gov.cn/srcsite/A06/s3321/202104/t20210401_523901.html)
 >
 > 小学上午上课时间一般不早于8:20，中学一般不早于8:00；学校不得要求学生提前到校参加统一的教育教学活动。
 >
